@@ -126,7 +126,7 @@ const path = require('path');
         log(`Test failed: ${err}`);
         let image = await driver.takeScreenshot();
         fs.writeFileSync(path.join(resultDir, 'error_screenshot.png'), image, 'base64');
-        log(`📸 Screenshot saved to ${path.join('result', 'error_screenshot.png')}`);
+        log(`Screenshot saved to ${path.join('result', 'error_screenshot.png')}`);
     } finally {
         fs.writeFileSync(path.join(resultDir, 'output.txt'), outputLog);
         await driver.quit();
