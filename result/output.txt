@@ -1,0 +1,7 @@
+step 1 - Opening Booking.com...
+step 2 - Entered destination: Porto
+Cookie banner dismissed.
+step 3 - select the check-in and check-out date.
+Selected date: 2025-09-01
+Selected date: 2025-09-07
+step 5 - Total properties found: 1,376
